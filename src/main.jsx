@@ -120,9 +120,9 @@ function drawCymatics(ctx, canvas, frequencyData, timeData, isPlaying, elapsed) 
 
   ctx.globalCompositeOperation = 'source-over'
   ctx.shadowBlur = 0
-  ctx.strokeStyle = 'rgba(255,255,255,.9)'
-  ctx.lineWidth = 2
-  ctx.strokeRect(1, 1, w - 2, h - 2)
+  ctx.strokeStyle = 'rgba(255,255,255,.18)'
+  ctx.lineWidth = 1
+  ctx.strokeRect(0.5, 0.5, w - 1, h - 1)
   ctx.restore()
 }
 
